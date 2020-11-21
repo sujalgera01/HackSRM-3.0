@@ -1,0 +1,14 @@
+.hlo {
+    margin-top: 20px;
+    overflow: scroll;
+    overflow-x: hidden;
+    height: 250px;
+    color: #d61414;
+}
+
+.MuiCardContent-root {
+    border: 1px solid black;
+    border-top-color: white;
+    border-radius: 15px;
+    margin-top: 10px;
+}

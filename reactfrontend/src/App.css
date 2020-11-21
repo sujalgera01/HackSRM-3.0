@@ -1,3 +1,39 @@
 *{
   margin: 0 ;
 }
+
+.app {
+  display: flex;
+  justify-content: space-between;
+  overflow: hidden;
+}
+
+.app__left {
+  flex: 0.9;
+}
+
+.app__right {
+  flex: 0.8;
+  margin-top: 20px;
+  margin-right: 10px;
+}
+
+.changes {
+  margin-top: 10px;
+  text-align: center;
+  font-weight: bold;
+}
+
+@media(max-width: 990px){
+  .app{
+    flex-direction: column;
+  }
+}
+
+/* .MuiPaper-root MuiCard-root app__right MuiPaper-elevation1 MuiPaper-rounded {
+  border-radius: 20px;
+} */
+/* .MuiCardContent-root {
+  <div class="MuiPaper-root MuiCard-root app__right MuiPaper-elevation1 MuiPaper-rounded"><div class="MuiCardContent-root"><h3>Notifications</h3><div class="hlo"><div><div class="MuiPaper-root MuiCard-root MuiPaper-elevation1 MuiPaper-rounded"><div class="MuiCardContent-root"><h3>I am very very Scared from Sujal Gera who's the most wanted man in Universe</h3><p>Hardik Upadhyay</p></div></div><div class="MuiPaper-root MuiCard-root MuiPaper-elevation1 MuiPaper-rounded"><div class="MuiCardContent-root"><h3>I am very very Scared from Sujal Gera who's the most wanted man in Universe Part 2</h3><p>Hardik Upadhyay</p></div></div><div class="MuiPaper-root MuiCard-root MuiPaper-elevation1 MuiPaper-rounded"><div class="MuiCardContent-root"><h3>I am very very Scared from Sujal Gera who's the most wanted man in Universe Part 3</h3><p>Hardik Upadhyay</p></div></div></div></div><h3>Forms</h3><div class="form"><h1>Forms</h1></div></div></div>
+  border-radius: 15px;
+} */
