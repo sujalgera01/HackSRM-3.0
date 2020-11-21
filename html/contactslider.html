@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width initial-scale=1.0">
+	<title>Contact</title>
+	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous">
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous">
+    </script>
+
+    <!-- Jquery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<style>
+		*{
+			padding: 0;
+			margin: 0;
+			box-sizing: border-box;
+			overflow: hidden;
+		}
+
+		body {
+			height: 100vh;
+  	  background:
+        linear-gradient(#e74c3c, transparent),
+        linear-gradient(to top right, blue, transparent);
+    	background-blend-mode: screen;
+    	background-repeat: no-repeat;
+    	background-size: cover;
+	}
+
+		h2 {
+			position: relative;
+			font-size: 40px;
+			font-weight: normal;
+			text-decoration: none;
+			text-align: center;
+			margin-top: 200px;
+		}
+
+		.input-field {
+			position: absolute;
+			margin-top: 50px;
+			align-items: center;
+			justify-content: center;
+			right: 35%;
+			width: 30%;
+			border-top: none;
+			border-right: none;
+			border-left: none;
+			height: 40px;
+			border-top-color: transparent;
+			border-right-color: transparent;
+			border-left-color: transparent;
+			background-color: transparent;
+		}
+
+		.cta {
+			background: transparent;
+			display: block;
+			color: #000;
+			text-align: center;
+			border-radius: 20px;
+			padding: 0.5em;
+			text-decoration: none;
+			font-size: 1.5em;
+			margin: 10% 5% 7%;
+			position: relative;
+			border: 1px solid black;
+			z-index: 4;
+			width: 10%;
+			left: 50%;
+			font-weight: bold;
+			transform: translateX(-90%);	
+		}
+
+		.cta:hover {
+			border: 2px solid black;
+		}
+
+		input {
+			font-size: 25px;
+			padding-left: 10px;
+			text-align: center;
+		}
+
+		input[type="text"]{ 
+		    outline: none;
+		}
+
+	</style>
+</head>
+<body>
+	<h2 class="head">Enter your Contact Number</h2>
+	<input class="input-field" type="text" id="mobile" name="mobile" minlength="10" maxlength="10" reqiured>
+	<a id="mob_frm" href="#" onclick="submitProject()" class="cta">SEND</a>
+</body>
+<script src="../js/script.js"></script>
+</html>
