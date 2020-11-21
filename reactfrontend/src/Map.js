@@ -140,6 +140,11 @@ function Map({center, zoom}) {
                     radius={400}
                 />
                 <Circle
+                    center={[28.6529, 77.3022]}
+                    pathOptions={{ fillColor: 'red' }}
+                    radius={400}
+                />
+                <Circle
                     center={[28.7164, 77.3126]}
                     pathOptions={{ fillColor: 'red' }}
                     radius={400}
