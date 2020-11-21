@@ -10,6 +10,7 @@ function Notification() {
         .then((response) => response.json())
         .then((data) => {
             setResponse(data)
+            console.log(data)
         })
     },[])
 
@@ -23,6 +24,7 @@ function Notification() {
             {console.log(response[0].userid.name)} */}
             {/* <p>Hello world</p>             */}
             <div>
+                <h1>I am Notification</h1>
                 {response.map((res) => (
                     <Card>
                         <CardContent> 
