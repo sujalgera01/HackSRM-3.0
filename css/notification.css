@@ -1,0 +1,28 @@
+.gallery {
+	margin: 10px 50px;
+}
+
+.gallery img {
+	transition: 1s;
+	padding: 10px;
+	width: 350px;
+}
+
+.gallery img:hover {
+	filter: grayscale(1%);
+	transform: scale(1.1);
+}
+
+.notify {
+	position: absolute;
+	right: 0;
+	top: 0;
+	margin-right: 100px;
+	padding: 10px;
+	border: 1px solid black;
+}
+
+.notify #head {
+	text-align: center;
+	color: red;
+}

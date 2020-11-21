@@ -69,6 +69,121 @@ function Map({center, zoom}) {
                     pathOptions={{ fillColor: 'red' }}
                     radius={400}
                 />
+                <Circle
+                    center={[28.6894, 77.2919]}
+                    pathOptions={{ fillColor: 'red' }}
+                    radius={400}
+                />
+                <Circle
+                    center={[28.438785, 77.046471]}
+                    pathOptions={{ fillColor: 'red' }}
+                    radius={400}
+                />
+                <Circle
+                    center={[28.6539, 77.2712]}
+                    pathOptions={{ fillColor: 'red' }}
+                    radius={400}
+                />
+                <Circle
+                    center={[26.9029, 80.9357]}
+                    pathOptions={{ fillColor: 'red' }}
+                    radius={400}
+                />
+                <Circle
+                    center={[28.6415, 77.2951]}
+                    pathOptions={{ fillColor: 'red' }}
+                    radius={400}
+                />
+                <Circle
+                    center={[28.6419, 77.2843]}
+                    pathOptions={{ fillColor: 'red' }}
+                    radius={400}
+                />
+                <Circle
+                    center={[28.6425, 77.2868]}
+                    pathOptions={{ fillColor: 'red' }}
+                    radius={400}
+                />
+                <Circle
+                    center={[28.6386, 77.287]}
+                    pathOptions={{ fillColor: 'red' }}
+                    radius={400}
+                />
+                <Circle
+                    center={[28.6401, 77.2879]}
+                    pathOptions={{ fillColor: 'red' }}
+                    radius={400}
+                />
+                <Circle
+                    center={[28.5734, 77.2326]}
+                    pathOptions={{ fillColor: 'red' }}
+                    radius={400}
+                />
+                <Circle
+                    center={[28.6429, 77.2944]}
+                    pathOptions={{ fillColor: 'red' }}
+                    radius={400}
+                />
+                <Circle
+                    center={[28.6364, 77.2928]}
+                    pathOptions={{ fillColor: 'red' }}
+                    radius={400}
+                />
+                <Circle
+                    center={[28.6589, 77.2321]}
+                    pathOptions={{ fillColor: 'red' }}
+                    radius={400}
+                />
+                <Circle
+                    center={[28.6389, 77.2955]}
+                    pathOptions={{ fillColor: 'red' }}
+                    radius={400}
+                />
+                <Circle
+                    center={[28.6529, 77.3022]}
+                    pathOptions={{ fillColor: 'red' }}
+                    radius={400}
+                />
+                <Circle
+                    center={[28.7164, 77.3126]}
+                    pathOptions={{ fillColor: 'red' }}
+                    radius={400}
+                />
+                <Circle
+                    center={[28.7268, 77.3252]}
+                    pathOptions={{ fillColor: 'red' }}
+                    radius={400}
+                />
+                <Circle
+                    center={[28.7354, 77.3289]}
+                    pathOptions={{ fillColor: 'red' }}
+                    radius={400}
+                />
+                <Circle
+                    center={[28.7385, 77.3351]}
+                    pathOptions={{ fillColor: 'red' }}
+                    radius={400}
+                />
+                <Circle
+                    center={[28.7486, 77.3659]}
+                    pathOptions={{ fillColor: 'red' }}
+                    radius={400}
+                />
+                <Circle
+                    center={[28.7658, 77.3569]}
+                    pathOptions={{ fillColor: 'red' }}
+                    radius={400}
+                />
+                <Circle
+                    center={[28.7963, 77.3895]}
+                    pathOptions={{ fillColor: 'red' }}
+                    radius={400}
+                />
+                <Circle
+                    center={[28.845, 77.436]}
+                    pathOptions={{ fillColor: 'red' }}
+                    radius={400}
+                />
                 </LayerGroup>
             </LeafletMap>
         </div>
