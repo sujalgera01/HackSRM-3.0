@@ -7,6 +7,11 @@ Helpify
 # Tagline
 Never Fear from the Reporting Unusual or Suspicious Behaviour in Surroundings from the Police. Your one Report can save the lives of many other ones.
 
+# Screenshots
+![alt text](https://github.com/sujalgera01/HackSRM-3.0/blob/master/images/d.png)
+![alt text](https://github.com/sujalgera01/HackSRM-3.0/blob/master/images/b.png)
+![alt text](https://github.com/sujalgera01/HackSRM-3.0/blob/master/images/a.png)
+![alt text](https://github.com/sujalgera01/HackSRM-3.0/blob/master/images/c.png)
 
 # The problem it solves
 Imagine, someone is chasing you for a long time. What do you do? Panic is not an option, so you must do something before it's too late, but what? Unfortunately, many people have been in this situation and many were clueless about what to do. So, we bring this portal to you where you can help yourself and others by just sending the query to the police without making a call. But what about the other cases, Why should I use our application then messaging the same to the police, The main idea comes to the mentality of people to not run into many of the police cases and to work up to their own life. So the issue arises how is it different than messaging, the answer comes to the point where there will be a group of individuals reporting something threatening to themselves or the other ones by sending it on our application. The Application uses CNN and different models for structuring the strength cases of a particular area thereby alerting the police and the users nearby. We have also provided different analysis and processing of models available to choose and work up for the police authorities identifying different cases under jurisdiction. For Both the Users as well as Police, we are providing Heatmap for tracking and noting different routes which a user can take for travelling asserting the crime rates in the particular area. For the User security and privacy we tried to include Blockchain as mode of decentralization. For the Market value of the estimated product the Fin Tech idea will be privately to own up big stacks of data and to work up with Different etheurem or any other sdk providing blockchain platform. As per the ideology selling and extending the data and services will always add up to different segmentation in society.
